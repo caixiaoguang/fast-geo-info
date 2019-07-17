@@ -7,6 +7,8 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
 import L from 'leaflet'
+import 'leaflet-draw'
+import "../node_modules/leaflet-draw/dist/leaflet.draw.css";
 import 'leaflet/dist/leaflet.css'
 import {
   Icon

@@ -5,8 +5,9 @@
         <head-title></head-title>
       </el-header>
       <el-main>
-        <Map />
-        <tool-bar />
+        <Map>
+          <tool-bar />
+        </Map>
       </el-main>
     </el-container>
   </div>

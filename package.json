@@ -8,10 +8,13 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "echarts": "^4.2.1",
     "element-ui": "^2.10.1",
     "leaflet": "^1.5.1",
+    "leaflet-draw": "^1.0.4",
     "leaflet.chinatmsproviders": "^2.0.3",
     "normalize.css": "^8.0.1",
+    "v-charts": "^1.19.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"

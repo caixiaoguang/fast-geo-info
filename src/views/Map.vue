@@ -1,6 +1,7 @@
 <template>
   <div id="mapView">
-    <l-map :center="center" :zoom="zoom">
+    <l-map :center="center" :zoom="zoom" @ready="mapReady">
+      <slot />
       <tile-layer />
       <Layers />
       <l-control :attributionControl="false" />
@@ -24,6 +25,11 @@ export default {
       center: [25.65, 106.85],
       zoom: 15
     };
+  },
+  methods: {
+    mapReady(map) {
+      this.$store.commit("setMap", map);
+    }
   }
 };
 </script>
