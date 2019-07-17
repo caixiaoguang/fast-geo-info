@@ -1,6 +1,6 @@
 <template>
   <div class="title">
-    <!-- <h2>Fast周边生态环境基础地理信息空间数据库</h2> -->
+    <h2>Fast周边生态环境基础地理信息空间数据库</h2>
   </div>
 </template>
 
