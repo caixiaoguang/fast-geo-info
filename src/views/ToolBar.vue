@@ -130,6 +130,7 @@ export default {
       this.$notify({
         title: "生态评价",
         dangerouslyUseHTMLString: true,
+        offset:45,
         message:
           ' 总体评价: <span style="color: green">好</span><br />健康面积：<span style="color: green">39271</span>平方千米<br />亚健康面积：<span style="color: orange">2372</span>平方千米<br />不健康面积：<span style="color: red">122</span>平方千米<br />'
       });

@@ -32,6 +32,7 @@ export default {
 .home {
   .el-header {
     padding: 0;
+    z-index: 9999;
   }
   .el-main {
     padding: 0;

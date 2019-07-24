@@ -12,10 +12,11 @@ export default {};
 .title {
   height: 60px;
   background: linear-gradient(
-    rgba(0, 150, 250, 0.952),
-    90%,
-    rgba(153, 179, 179, 0.4)
+    rgba(87, 87, 87, 0.9),
+    rgba(63, 59, 59, 0.7),
+    rgba(87, 87, 87, 0.9)
   );
+  box-shadow: 1px 5px 5px rgba(129, 126, 126, 0.4);
   h2 {
     margin: 0;
     line-height: 60px;
